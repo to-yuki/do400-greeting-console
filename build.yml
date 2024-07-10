@@ -2,6 +2,7 @@ kind: BuildConfig
 apiVersion: build.openshift.io/v1
 metadata:
   name: greeting-console
+  data1: 1
 spec:
   nodeSelector: {}
   strategy:
